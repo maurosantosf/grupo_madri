@@ -8,7 +8,7 @@ from ui.relatorio_tab import render_relatorio_tab
 st.set_page_config(page_title="Conciliador de Cartão de Crédito", layout="wide")
 
 def main():
-    st.title("Conciliador de Cartão de Crédito - EPS")
+    st.title("Conciliador de Cartão de Crédito - EPS v1.0.0")
     
     # Initialize session state for our dataframes if not exist
     if 'df_sistema' not in st.session_state:

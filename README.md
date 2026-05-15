@@ -31,3 +31,12 @@ Se desejar rodar em ambiente de desenvolvimento:
 ## Requisitos de Sistema
 - Windows 10 ou superior.
 - Visual C++ Redistributable (Geralmente já presente no Windows).
+
+## Histórico de Versões e Backups
+Este projeto utiliza o sistema de versionamento **Git**. Cada versão estável é marcada com uma "Tag", permitindo retornar a qualquer estado anterior do sistema se necessário.
+
+- **v1.0.0** (15/05/2026): **Versão Inicial Estável**.
+  - Implementação completa da lógica de conciliação NSU/Autorização.
+  - Módulo de auditoria de taxas MDR.
+  - Exportação de relatórios multifolhas em Excel.
+  - Interface Streamlit com 5 abas operacionais.
