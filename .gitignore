@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+python_embutido/
+python-embed.zip
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data (Sensitive)
+SISTEMA/
+CARTAO/
+PAGBANK/
+*.xlsx
+*.csv
+*.xls
+
+# Documentation/Local tracking
+docs/DIARIO_DE_BORDO.md
+docs/TASKS.md
